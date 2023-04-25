@@ -13,6 +13,3 @@ const filterSlice = createSlice({
 
 export const { filterContacts } = filterSlice.actions;
 export const FilterReducer = filterSlice.reducer
-
-// Selectors
-export const getFilter = state => state.filter.value;

@@ -36,6 +36,3 @@ const persistConfig = {
     whitelist: ['list'] 
 }
 export const ContactsReducer = persistReducer(persistConfig, contactsSlice.reducer)
-
-// Selectors
-export const getContacts = state => state.contacts.list;
